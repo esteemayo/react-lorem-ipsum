@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
 import data from "./services/textService";
+import Input from "./components/Input";
 
 import "./App.css";
-import Input from "./components/Input";
 
 function App() {
   const [count, setCount] = useState(0);
