@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import data from './data';
 import Input from 'components/Input';
 
-import './App.css';
 
 function App() {
   const [count, setCount] = useState(0);
