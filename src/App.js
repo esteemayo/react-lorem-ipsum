@@ -26,7 +26,6 @@ function App() {
   return (
     <section className='section-center'>
       <h3>Tired of boring lorem ipsum?</h3>
-
       <form onSubmit={handleSubmit} className='lorem-form'>
         <Input
           type='number'
