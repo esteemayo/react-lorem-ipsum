@@ -36,7 +36,6 @@ function App() {
           value={count}
           onChange={(e) => setCount(e.target.value)}
         />
-
         <Button type='submit' text='Generate' />
       </form>
 
