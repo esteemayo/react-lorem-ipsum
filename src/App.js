@@ -31,7 +31,6 @@ function App() {
           id='amount'
           type='number'
           name='amount'
-          id='amount'
           label='Paragraphs'
           value={count}
           onChange={(e) => setCount(e.target.value)}
