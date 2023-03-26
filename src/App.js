@@ -28,6 +28,7 @@ function App() {
       <h3>Tired of boring lorem ipsum?</h3>
       <form onSubmit={handleSubmit} className='lorem-form'>
         <Input
+          id='amount'
           type='number'
           name='amount'
           id='amount'
