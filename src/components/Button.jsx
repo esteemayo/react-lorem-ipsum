@@ -10,6 +10,7 @@ const Button = ({ text, type }) => {
 
 Button.defaultProps = {
   text: 'Generate',
+  type: 'submit',
 };
 
 export default Button;
