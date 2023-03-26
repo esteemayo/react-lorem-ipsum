@@ -6,6 +6,7 @@ const Input = ({ name, label, ...rest }) => {
       <label htmlFor={name}>{label}</label>
       <input
         {...rest}
+        id={name}
         type='number'
         name={name}
         id={name}
