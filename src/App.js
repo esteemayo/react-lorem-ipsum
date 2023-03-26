@@ -37,7 +37,6 @@ function App() {
         />
         <Button type='submit' text='Generate' />
       </form>
-
       <article className='lorem-text'>
         {text.map((item, index) => {
           return <p key={index}>{item}</p>;
