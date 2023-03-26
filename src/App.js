@@ -30,10 +30,10 @@ function App() {
 
       <form onSubmit={handleSubmit} className='lorem-form'>
         <Input
-          type="number"
-          name="amount"
-          id="amount"
-          label="Paragraphs"
+          type='number'
+          name='amount'
+          id='amount'
+          label='Paragraphs'
           value={count}
           onChange={(e) => setCount(e.target.value)}
         />
