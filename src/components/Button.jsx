@@ -8,4 +8,8 @@ const Button = ({ text }) => {
   );
 };
 
+Button.defaultProps = {
+  text: 'Generate',
+};
+
 export default Button;
