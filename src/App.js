@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import data from "services/textService";
-import Input from "./components/Input";
+import Input from "components/Input";
 
 import "./App.css";
 
