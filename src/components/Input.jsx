@@ -9,7 +9,6 @@ const Input = ({ name, label, ...rest }) => {
         id={name}
         type='number'
         name={name}
-        id={name}
       />
     </div>
   );
