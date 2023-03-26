@@ -43,7 +43,7 @@ function App() {
         </button>
       </form>
 
-      <article className="lorem-text">
+      <article className='lorem-text'>
         {text.map((item, i) => (
           <p key={i}>{item}</p>
         ))}
