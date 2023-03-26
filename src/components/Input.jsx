@@ -7,6 +7,7 @@ const Input = ({ name, label, ...rest }) => {
       <input
         {...rest}
         id={name}
+        name={name}
         type='number'
         name={name}
       />
