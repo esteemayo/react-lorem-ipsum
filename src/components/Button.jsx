@@ -2,7 +2,9 @@ import React from 'react'
 
 const Button = () => {
   return (
-    <div>Button</div>
+    <button type='submit' className='btn'>
+      Generate
+    </button>
   );
 };
 
