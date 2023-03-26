@@ -44,8 +44,8 @@ function App() {
       </form>
 
       <article className='lorem-text'>
-        {text.map((item, i) => (
-          <p key={i}>{item}</p>
+        {text.map((item, index) => (
+          <p key={index}>{item}</p>
         ))}
       </article>
     </section>
